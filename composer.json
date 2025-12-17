@@ -1,0 +1,33 @@
+{
+  "name": "sharpapi/php-resume-parser",
+  "description": "Pure PHP client for SharpAPI Resume/CV Parser (extracts structured data from resumes in PDF/DOC/DOCX/TXT/RTF).",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "SharpAPI",
+    "resume",
+    "cv",
+    "parser",
+    "hr",
+    "php"
+  ],
+  "homepage": "https://sharpapi.com/",
+  "authors": [
+    {
+      "name": "A2Z WEB LTD",
+      "homepage": "https://sharpapi.com/"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "sharpapi/sharpapi-php-core": "dev-main",
+    "guzzlehttp/guzzle": "^7.0|^7.9|^7.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "SharpAPI\\ResumeParser\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
