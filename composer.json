@@ -20,7 +20,7 @@
   ],
   "require": {
     "php": ">=8.0",
-    "sharpapi/sharpapi-php-core": "dev-main",
+    "sharpapi/php-core": "^1.0.2",
     "guzzlehttp/guzzle": "^7.0|^7.9|^7.10"
   },
   "autoload": {
