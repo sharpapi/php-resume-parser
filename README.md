@@ -7,7 +7,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sharpapi/php-resume-parser.svg?style=flat-square)](https://packagist.org/packages/sharpapi/php-resume-parser)
 [![Total Downloads](https://img.shields.io/packagist/dt/sharpapi/php-resume-parser.svg?style=flat-square)](https://packagist.org/packages/sharpapi/php-resume-parser)
 
-Check the full documentation on the [Resume/CV Parser API](https://sharpapi.com/en/catalog/ai/hr-tech/resume-parser) page.
+Check the full documentation on the [Resume/CV Parser API](https://sharpapi.com/en/catalog/ai/hr-tech/resume-cv-parsing) page.
 
 ---
 
@@ -84,15 +84,89 @@ try {
 {
   "data": {
     "type": "api_job_result",
-    "id": "3b2c1d6f-9ac4-4c98-92b2-c4cb2d4edc11",
+    "id": "5a113c4d-38e9-43e5-80f4-ec3fdea3420e",
     "attributes": {
       "status": "success",
-      "type": "hr_resume_parser",
+      "type": "hr_parse_resume",
       "result": {
-        "contact": { "full_name": "Jane Doe", "email": "jane@example.com" },
-        "experience": [],
-        "education": [],
-        "skills": []
+        "positions": [
+          {
+            "skills": [
+              "Acceptance testing",
+              "Technical investigation",
+              "Exploratory testing",
+              "Agile",
+              "Test environments",
+              "Test management tools",
+              "UAT knowledge",
+              "Writing test reports",
+              "Organising, conducting and supporting test activities",
+              "Performance testing",
+              "Integration testing",
+              "Rapid response to equipment failures",
+              "Implementing immediate repairs",
+              "Participating in audits and reviews",
+              "Monitoring and reporting repair trends",
+              "Drawings and documentation updates",
+              "Executing test cases",
+              "Documenting results and defects",
+              "Testing and fault finding finished systems",
+              "Reporting issues to Test Manager",
+              "Assisting in software installation",
+              "Experience of testing Web, PC and mobile based software",
+              "Understanding iterative software development lifecycle",
+              "Manual testing methods and processes",
+              "Technical knowledge of Test Systems hardware and software",
+              "Planning and task management skills",
+              "Microsoft operating systems",
+              "Testing GUI based software"
+            ],
+            "country": "United Kingdom",
+            "end_date": null,
+            "start_date": "2008-06-01",
+            "job_details": "Responsible for the whole test process from planning, through test plan development, execution & result reporting. Also involved in the development and improvement of the test functions, putting forward suggestions and implementing plans accordingly. Duties included organising, conducting and supporting test activities, performance testing, integration testing, rapid response to equipment failures, implementing immediate repairs, participating in audits and reviews, monitoring and reporting repair trends, updating drawings and documentation, executing test cases, documenting results and defects, testing and fault finding finished systems, reporting issues to Test Manager, and assisting in software installation.",
+            "company_name": "IT & Telecoms Company",
+            "position_name": "Test Engineer"
+          }
+        ],
+        "candidate_name": "Linda Harris",
+        "candidate_email": "linda.h@dayjob.co.uk",
+        "candidate_phone": "02476 000 0000, 0887 222 9999",
+        "candidate_address": "34 Made Up Road, Coventry, CV66 7RF",
+        "candidate_language": "English",
+        "education_qualifications": [
+          {
+            "country": "United Kingdom",
+            "end_date": "2008-06-01",
+            "start_date": "2005-09-01",
+            "degree_type": "Bachelor’s Degree or equivalent",
+            "school_name": "Nuneaton University",
+            "school_type": "University or equivalent",
+            "learning_mode": "In-person learning",
+            "education_details": "",
+            "faculty_department": "",
+            "specialization_subjects": "Software Engineering"
+          },
+          {
+            "country": "United Kingdom",
+            "end_date": "2005-06-01",
+            "start_date": "2000-09-01",
+            "degree_type": "High School/Secondary School Diploma or equivalent",
+            "school_name": "Coventry North School",
+            "school_type": "High School/Secondary School or equivalent",
+            "learning_mode": "In-person learning",
+            "education_details": "A levels: Maths (A), English (B), Technology (B), Science (C)",
+            "faculty_department": "",
+            "specialization_subjects": ""
+          }
+        ],
+        "candidate_spoken_languages": [
+          "German"
+        ],
+        "candidate_honors_and_awards": [],
+        "candidate_courses_and_certifications": [
+          "ISEB certification"
+        ]
       }
     }
   }
