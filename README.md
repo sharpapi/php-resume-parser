@@ -1,6 +1,6 @@
 ![SharpAPI GitHub cover](https://sharpapi.com/sharpapi-github-laravel-bg.jpg "SharpAPI PHP Client")
 
-# Resume/CV Parser API for PHP 8
+# Resume/CV Parser for PHP 8
 
 ## 🎯 Extract structured data from resumes (PDF/DOC/DOCX/TXT/RTF) — powered by SharpAPI AI.
 
