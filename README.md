@@ -11,6 +11,17 @@ Check the full documentation on the [Resume/CV Parser API](https://sharpapi.com/
 
 ---
 
+## Quick Links
+
+| Resource | Link |
+|----------|------|
+| **Main API Documentation** | [Authorization, Webhooks, Polling & More](https://documenter.getpostman.com/view/31106842/2s9Ye8faUp) |
+| **Postman Documentation** | [View Docs](https://documenter.getpostman.com/view/31106842/2sBXVeGsaE) |
+| **Product Details** | [SharpAPI.com](https://sharpapi.com/en/catalog/ai/hr-tech/resume-cv-parsing) |
+| **SDK Libraries** | [GitHub - SharpAPI SDKs](https://github.com/sharpapi) |
+
+---
+
 ## Requirements
 
 - PHP >= 8.0
