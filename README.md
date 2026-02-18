@@ -2,7 +2,11 @@
 
 # Resume/CV Parser for PHP 8
 
-## 🎯 Extract structured data from resumes (PDF/DOC/DOCX/TXT/RTF) — powered by SharpAPI AI.
+## 🎯 Extract structured data from resumes — powered by SharpAPI AI.
+
+Supported resume files - **11 file formats**: **DOC, DOCX, TXT, RTF, PDF, JPG, JPEG, JPE, PNG, TIFF, TIF**
+
+And yes - it handles those **flattened PDFs** where the entire resume is just images instead of text.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sharpapi/php-resume-parser.svg?style=flat-square)](https://packagist.org/packages/sharpapi/php-resume-parser)
 [![Total Downloads](https://img.shields.io/packagist/dt/sharpapi/php-resume-parser.svg?style=flat-square)](https://packagist.org/packages/sharpapi/php-resume-parser)
